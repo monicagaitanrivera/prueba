@@ -4,13 +4,11 @@ include 'conexion.php';
 <!DOCTYPE html>
 <html lang="en">
  <head>
-    <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Colorlib Templates">
     <meta name="author" content="Colorlib">
     <meta name="keywords" content="Colorlib Templates">
-    <!-- Title Page-->
     <title>Registro de categoria</title>
     <link href="css/Registro_categoria.css" rel="stylesheet" media="all">
   </head>
@@ -21,8 +19,6 @@ include 'conexion.php';
                 <div class="card-heading"></div>
                 <div class="card-body">
         <h1 class="logo"> REGISTRO CATEGORIA</h1><br>
-        <div class="contact-wrapper animated bounceInUp">
-            <div class="contact-form">   
                 <form action="" method="POST">
                 <div class="input-group">
                             <input class="input--style-2" type="text"  name="txt1" placeholder="Nombre de la categoria" >
@@ -31,7 +27,7 @@ include 'conexion.php';
                         <div class="input-group">
                             <input class="input--style-2" type="text"  name="txt2" placeholder="Descripcion" >
                         </div>
-    <?php
+                          <?php
                           if (isset($_POST['btn1'])) {
                             $nombre_c=$_POST['txt1'];
                             $descripcion_c=$_POST['txt2'];

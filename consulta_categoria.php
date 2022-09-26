@@ -8,10 +8,6 @@ include 'conexion.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> categoria</title>
-  
-    <link rel="stylesheet" type="text/css" href="css/libros.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="css/consulta_categoria.css" rel="stylesheet" media="all">
     </head>
 
@@ -22,13 +18,11 @@ include 'conexion.php';
                 <div class="card-heading"></div>
                 <div class="card-body">
 <table>
-    <tr class="tt">
     <td colspan="15" class="logo"><h1>CONSULTA CATEGORIA</h1></td>
        </tr>
-         <div class="row row-cols-3">
        <tr>
-          <div class="col"> <td class="input--style-2" >Nombre</td> </div>
-          <div class="col"> <td class="input--style-2">Descripcion</td></div>
+          <div > <td class="input--style-2" >Nombre</td> </div>
+          <div > <td class="input--style-2">Descripcion</td></div>
         </tr>
    
 

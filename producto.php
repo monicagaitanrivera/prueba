@@ -3,22 +3,15 @@ include 'conexion.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Colorlib Templates">
     <meta name="author" content="Colorlib">
     <meta name="keywords" content="Colorlib Templates">
-
-    <!-- Title Page-->
-    <title>Registro Marca</title>
-<link href="css/Registro_oferta.css" rel="stylesheet" media="all">
-
-    
+    <title>Registro </title>
+    <link href="css/Registro_producto.css" rel="stylesheet" media="all">
 </head>
-
 <body>
    
 <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
@@ -26,9 +19,7 @@ include 'conexion.php';
             <div class="card card-2">
                 <div class="card-heading"></div>
                 <div class="card-body">
-        <h1 class="logo"> REGISTRO MARCA</h1>
-        <div class="contact-wrapper animated bounceInUp">
-            <div class="contact-form">   
+        <h1 class="logo"> REGISTRO PRODUCTO</h1> 
                 <form action="" method="POST">
                 <div class="input-group">
                             <input class="input--style-2" type="text"  name="txt1" placeholder="Digite el nombre" >
@@ -44,8 +35,9 @@ include 'conexion.php';
                             <input class="input--style-2" type="number"  name="txt4" placeholder="valor" >
                         </div>
                         <tr>
+                      
                         <td>Categoria:</td>
-                         <td>
+                       
                              <select name="txt5" class="input--style-2"> 
                                 <?php
                                 try {
@@ -67,9 +59,9 @@ include 'conexion.php';
                             </td>
                           </tr>
                       <tr>
-                        <td>Marca:</td>
+                      <br><br><td >Marca:</td>
                          <td>
-                             <select name="txt6" class="input--style-2"> 
+                         <select name="txt6" class="input--style-2"> 
                                 <?php
                                 try {
                                   $sql2="SELECT * FROM marca";

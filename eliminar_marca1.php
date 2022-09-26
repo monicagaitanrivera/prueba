@@ -26,13 +26,14 @@ include "conexion.php"
                 while ($consulta4=$resultado4->fetch(PDO::FETCH_ASSOC)){
                     ?>
                     <tr>
-                    <td class="titulo"><?php echo " usted esta seguro de querer elimiar la marca ".$consulta4['nombre_m']; ?></td></tr>
+                    <td class="titulo"><?php echo " usted esta seguro de querer eliminar 
+                    la marca ".$consulta4['nombre_m']; ?></td></tr>
                     <tr>
                       <td>
-                       <a href="eliminar_marca_2.php?cod2=<?php echo $_REQUEST['cod']?>">
-                     <img src="img/si.png" width="50px"></a>
+                       <a href="eliminar_marca_2.php?cod1=<?php echo $_REQUEST['cod']?>">
+                       <img src="img/si.png" width="50px"></a>
                        <a href ="javascript:history.go(-1)"><img src="img/no.png"
-                       width="55px"></a> 
+                       width="55px"></a>
                       </td>
                     </tr>
                     <?php   
@@ -43,6 +44,6 @@ include "conexion.php"
             }    
              ?>
        </table>
-       </div>              
+       </div>                 
 </body>
 </html>

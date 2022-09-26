@@ -9,10 +9,7 @@ include 'conexion.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>marca</title>
-    <link rel="stylesheet" type="text/css" href="css/libros.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
-    <link href="css/actualizar_oferta.css" rel="stylesheet" media="all">
+    <link href="css/actualizar_marca.css" rel="stylesheet" media="all">
 
     
 </head>
@@ -75,5 +72,4 @@ include 'conexion.php';
         
 
 </body>
-
 </html>

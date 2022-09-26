@@ -1,0 +1,96 @@
+body{
+    background: #F2F3EB;
+    }
+    div{
+        border: solid 3px #474544;
+        margin: 60px auto;
+        position: relative;
+        width: 100%;
+        padding-top: 10px; 
+        margin: 0 auto;
+        margin-top: 60px;
+        border-radius: 10px;
+        padding-bottom: 30px;
+        background: #e0e0d9;
+    }
+    table{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .nombrem{
+      font-size: 20px;
+      color: white;
+    }
+    .titulo{
+        padding: 30px;
+        color: black;
+        border-radius: 30px;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    .nombres{
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
+    .lista{
+        font-size: 18px;
+        color: rgb(37, 36, 36);
+        text-align: center;
+    }
+    nav{
+      display: flex;
+      align-items:center;
+      justify-content: space-around;
+      min-height:8vh;
+      background: url(../img/ferra.jpg) no-repeat center;
+  }
+
+    @media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
